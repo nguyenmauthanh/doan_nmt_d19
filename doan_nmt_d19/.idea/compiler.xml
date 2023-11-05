@@ -7,14 +7,16 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Twitter_API" />
-        <module name="Twitter_Analysis" />
+        <module name="WordCountStreaming" />
         <module name="Kafka_Flink" />
+        <module name="Twitter_Analysis" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Kafka_Flink" target="1.8" />
       <module name="Twitter_Analysis" target="1.8" />
       <module name="Twitter_API" target="1.8" />
+      <module name="WordCountStreaming" target="8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

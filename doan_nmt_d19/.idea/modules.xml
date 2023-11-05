@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/Kafka_Flink/Kafka_Flink.iml" filepath="$PROJECT_DIR$/Kafka_Flink/Kafka_Flink.iml" />
       <module fileurl="file://$PROJECT_DIR$/Twitter_API/Twitter_API.iml" filepath="$PROJECT_DIR$/Twitter_API/Twitter_API.iml" />
       <module fileurl="file://$PROJECT_DIR$/Twitter_Analysis/Twitter_Analysis.iml" filepath="$PROJECT_DIR$/Twitter_Analysis/Twitter_Analysis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WordCountStreaming/WordCountStreaming.iml" filepath="$PROJECT_DIR$/WordCountStreaming/WordCountStreaming.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/doan_nmt_d19.iml" filepath="$PROJECT_DIR$/.idea/doan_nmt_d19.iml" />
     </modules>
   </component>

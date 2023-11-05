@@ -6,6 +6,7 @@
         <option value="$PROJECT_DIR$/Twitter_Analysis/pom.xml" />
         <option value="$PROJECT_DIR$/Twitter_API/pom.xml" />
         <option value="$PROJECT_DIR$/Kafka_Flink/pom.xml" />
+        <option value="$PROJECT_DIR$/WordCountStreaming/pom.xml" />
       </list>
     </option>
   </component>
