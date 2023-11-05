@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Twitter_API" />
+        <module name="Twitter_Analysis" />
+        <module name="Kafka_Flink" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Kafka_Flink" target="1.8" />
+      <module name="Twitter_Analysis" target="1.8" />
+      <module name="Twitter_API" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Kafka_Flink" options="-Xlint:all,-options,-path" />
+      <module name="Twitter_API" options="-Xlint:all,-options,-path" />
+      <module name="Twitter_Analysis" options="-Xlint:all,-options,-path" />
+    </option>
+  </component>
+</project>
