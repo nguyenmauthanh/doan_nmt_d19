@@ -7,21 +7,28 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Twitter_API" />
+        <module name="Bank_Analysis" />
         <module name="WordCountStreaming" />
         <module name="Kafka_Flink" />
+        <module name="Stock_Analysis" />
         <module name="Twitter_Analysis" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="Bank_Analysis" target="1.8" />
       <module name="Kafka_Flink" target="1.8" />
+      <module name="Stock_Analysis" target="1.8" />
       <module name="Twitter_Analysis" target="1.8" />
       <module name="Twitter_API" target="1.8" />
+      <module name="untitled" target="1.5" />
       <module name="WordCountStreaming" target="8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Bank_Analysis" options="-Xlint:all,-options,-path" />
       <module name="Kafka_Flink" options="-Xlint:all,-options,-path" />
+      <module name="Stock_Analysis" options="-Xlint:all,-options,-path" />
       <module name="Twitter_API" options="-Xlint:all,-options,-path" />
       <module name="Twitter_Analysis" options="-Xlint:all,-options,-path" />
     </option>

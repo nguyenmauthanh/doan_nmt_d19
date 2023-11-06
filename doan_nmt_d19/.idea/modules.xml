@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Bank_Analysis/Bank_Analysis.iml" filepath="$PROJECT_DIR$/Bank_Analysis/Bank_Analysis.iml" />
       <module fileurl="file://$PROJECT_DIR$/Kafka_Flink/Kafka_Flink.iml" filepath="$PROJECT_DIR$/Kafka_Flink/Kafka_Flink.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Stock_Analysis/Stock_Analysis.iml" filepath="$PROJECT_DIR$/Stock_Analysis/Stock_Analysis.iml" />
       <module fileurl="file://$PROJECT_DIR$/Twitter_API/Twitter_API.iml" filepath="$PROJECT_DIR$/Twitter_API/Twitter_API.iml" />
       <module fileurl="file://$PROJECT_DIR$/Twitter_Analysis/Twitter_Analysis.iml" filepath="$PROJECT_DIR$/Twitter_Analysis/Twitter_Analysis.iml" />
       <module fileurl="file://$PROJECT_DIR$/WordCountStreaming/WordCountStreaming.iml" filepath="$PROJECT_DIR$/WordCountStreaming/WordCountStreaming.iml" />
