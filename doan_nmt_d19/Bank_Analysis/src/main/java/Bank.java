@@ -168,7 +168,7 @@ public class Bank {
                 final String lostCardId = cardEntry.getKey();
                 final LostCard card = cardEntry.getValue();
 
-                // get card_id of current transaction
+                //   m
                 final String cId = value.f1.split(",")[5];
                 if (cId.equals(lostCardId)) {
                     out.collect(new Tuple2 < String, String > ("__ALARM__", "Transaction: " + value + " issued via LOST card"));
